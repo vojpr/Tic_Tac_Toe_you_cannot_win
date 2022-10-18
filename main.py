@@ -54,13 +54,13 @@ def place_symbol(position, symbol):
         return
 
     else:
-        position = input(f"That place is not empty.\nWhere do you want to place the {symbol} (1 to 9)?")
+        position = input(f"That place is not empty.\nWhere do you want to place the {symbol} (1 to 9)?: ")
         place_symbol(int(position), symbol)
         return
 
 
 def player_place_x():
-    x_input = input("Where do you want to place the X (1 to 9)?")
+    x_input = input("Where do you want to place the X (1 to 9)?: ")
     place_symbol(int(x_input), "X")
 
 
