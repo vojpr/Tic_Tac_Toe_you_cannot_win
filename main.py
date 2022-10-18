@@ -118,9 +118,9 @@ board = {1: " ", 2: " ", 3: " ", 4: " ", 5: " ", 6: " ", 7: " ", 8: " ", 9: " "}
 
 show_board()
 
-game_on = True
+GAME_ON = True
 
-while game_on:
+while GAME_ON:
     player_place_x()
     time.sleep(1)
     bot_place_o()
